@@ -22,6 +22,10 @@ const SOUND_MODELS: SoundModel[] = [
   {
     name: "Voicemod - Fastspeech2",
     url: "https://api-inference.huggingface.co/models/Voicemod/fastspeech2-en-male1"
+  },
+  {
+    name: "deryauysal - speechT5",
+    url: "https://api-inference.huggingface.co/models/deryauysal/speechT5_tts_youtube_tr"
   }
 ];
 
