@@ -1,5 +1,14 @@
+import GenerateSoundView from "./views/GenerateSoundView";
+
+/**
+ * The main entry point component for the application.
+ * It renders the GenerateSoundView component.
+ */
 export default function Home() {
   return (
-    <div className="flex flex-col justify-center items-center ">Main Page</div>
+    <main className="flex min-h-screen flex-col">
+      {/* Render the GenerateSoundView component */}
+      <GenerateSoundView />
+    </main>
   );
 }
